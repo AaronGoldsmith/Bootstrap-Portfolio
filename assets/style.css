@@ -73,9 +73,10 @@ nav{
     left: 0px;
     text-align: center; 
     border-top: 5px solid #4aaaaa;
-    
 }
+
 @media only screen and (max-width: 767px) {
+    
     .mb-4{
          margin-bottom: auto !important;
     }
@@ -83,7 +84,7 @@ nav{
         position: initial;
         display: inline-block;
         line-height: 1rem;
-        margin: 5px;
+        margin: 5px 0px 50px 0px;
     }
 
     #navbarText {
@@ -91,12 +92,24 @@ nav{
         top: 0;
         left: 0;
     }
+    h1{
+        margin-top: 0.8em;
+    }
+    p{padding: 2px !important;}
+    .dip{
+        padding-bottom: 0px;
+    }
+    .navbar-toggler{
+        width: initial;
+    }
 }
+
 @media only screen and (min-width: 767px) {
     .side-links{
         position: relative;
         margin: 20%;
     }
+    
     #navbarText {
         position: inherit ;
         top: 0;
@@ -109,5 +122,10 @@ nav{
         margin-top:25px;
         margin-right: 20px;
     }
+    h2{ font-size: 0.2em;}
+    .navbar-toggler{
+        width: 15%;
+    }
+
 }
 
