@@ -1,0 +1,113 @@
+
+*{
+    border-color:#eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p,input,li,a,label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand
+{
+    background: #4aaaa5ee;
+    margin: 0 20px;
+}
+html,body{
+    height: 100%;
+}
+
+.card{
+    border:none;
+    text-align: center;
+    margin: 5% auto;
+    box-shadow:0px 0px 5px 0px #333;
+    max-width: 80%;
+    position: relative;
+}
+.card:hover{
+    box-shadow:0px 0px 5px 1px #333;
+    opacity: 1.0;
+}
+.card:active{
+    box-shadow:0px 0px 5px 3px #333;
+}
+.card:hover .card-img-overlay,
+.card:active .card-img-overlay,
+.card:focus .card-img-overlay,
+{
+    opacity:1.0;
+}
+
+.card-img-overlay{
+    padding: initial;
+    top: 65%;
+    opacity: 0.75;
+    margin-bottom: 10px;
+}
+.card h3{
+    background:rgb(74, 170, 165);  
+    opacity: 0.95; 
+    padding: 5%;     
+    margin: 0 auto;  
+    font-size: 20px;   
+}
+.main_content{
+
+    margin: 0 auto;
+}
+nav{
+    padding-bottom: 50px;
+}
+.nav-link{
+    text-align: right;
+    display:inline-block;
+    padding: 3px 5px; 
+}
+.side-links{
+    padding:5px 15px;
+}
+.footer{
+    position: static;
+    height: 85px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center; 
+    border-top: 5px solid #4aaaaa;
+    
+}
+@media only screen and (max-width: 767px) {
+    .mb-4{
+         margin-bottom: auto !important;
+    }
+    .side-links{
+        position: initial;
+        display: inline-block;
+        line-height: 1rem;
+        margin: 5px;
+    }
+
+    #navbarText {
+        position: inherit ;
+        top: 0;
+        left: 0;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .side-links{
+        position: relative;
+        margin: 20%;
+    }
+    #navbarText {
+        position: inherit ;
+        top: 0;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 506px) {
+    .side-links li{
+        display:inline-block;
+        margin-top:25px;
+        margin-right: 20px;
+    }
+}
+
